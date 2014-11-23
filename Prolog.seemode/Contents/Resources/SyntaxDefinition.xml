@@ -427,6 +427,17 @@
                 <string>load</string>
                 <string>listing</string>
             </keywords>
+			
+			<keywords id="Arrows" scope="keyword" casesensitive="yes" useforautocomplete="yes">
+				<string>:-</string>
+				<string>:-&amp;</string>
+				<string>:/-</string>
+				<string>:/-&amp;</string>
+				<string>:-$</string>
+				<string>:/-$</string>
+				<string>?-</string>
+			</keywords>
+			
             <keywords id="Numbers" scope="language.constant" useforautocomplete="no">
 				<regex>(?&lt;=[^[A-Za-z0-9]]|^)((([0-9]+\.[0-9]*)|(\.[0-9]+)([eE][+\-]?[0-9]+)?[fFlL]?)|((([1-9][0-9]*)|0[0-7]*|(0[xX][0-9a-fA-F]))(([uU][lL]?)|([lL][uU]?))?))(?=[^[A-Za-z0-9]]|$)</regex>
             </keywords>
